@@ -11,8 +11,7 @@ body{
 .wrapper{
     position: absolute;
     width: 50%;
-    height: 50%;
-    le
+    height: 70%;
     border: 1px solid black;
     border-radius: 20px;
     background: linear-gradient(320deg, rgb(232, 175, 232), rgb(145, 242, 255), rgb(120, 251, 120));
@@ -23,9 +22,57 @@ body{
     position: relative;
     top: 10px;
     width: 90%;
+    height: 20%;
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid darkgrey;
     text-align: right;
+    border-radius: 16px;
+    
 }
 
+.input-wrapper{
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+
+button{
+    width: 20%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 16px;
+    border: 1px solid;
+
+}
+
+button:hover{
+    background-color: rgb(234, 234, 159);
+    cursor: pointer;
+}
+
+.double{
+    width: 41%;
+}
+
+.triple{
+    width: 62%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.symbol{
+    background-color: rgb(251, 93, 251);
+}
+
+.symbol:hover{
+    background-color: lightgreen;
+}
