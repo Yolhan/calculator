@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(320deg, rgb(232, 175, 232), rgb(145, 242, 255), rgb(120, 251, 120));
+    
+}
+
+.wrapper{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    le
+    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(320deg, rgb(232, 175, 232), rgb(145, 242, 255), rgb(120, 251, 120));
+   
+}
+
+.display{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid darkgrey;
+    text-align: right;
+}
+
