@@ -12,34 +12,34 @@
 <body>
 
     <div class="wrapper">
-        <section class="display">0</section>
+        <section class="display">4</section>
         <div class="input-wrapper">
             <section class="row">
-                <button class="double">C</button>
-                <button>&larr;</button>
-                <button class="symbol">&divide;</button>
+                <button class="double" onClick="action('clear')">C</button>
+                <button onclick="action('back')">&larr;</button>
+                <button class="symbol" onclick="action('div')">&divide;</button>
             </section>
             <section class="row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="symbol">&Star;</button>
+                <button onclick="(action(7))">7</button>
+                <button onclick="action(8)">8</button>
+                <button onclick="action(9)">9</button>
+                <button class="symbol" onclick="action('star')">&Star;</button>
             </section>
             <section class="row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="symbol">&minus;</button>
+                <button onclick="action(4)">4</button>
+                <button onclick="action(5)">5</button>
+                <button onclick="action(6)">6</button>
+                <button class="symbol" onclick="action('minus')">&minus;</button>
             </section>
             <section class="row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="symbol">&plus;</button>
+                <button onclick="action(1)">1</button>
+                <button onclick="action(2)">2</button>
+                <button onclick="action(3)">3</button>
+                <button class="symbol" onclick="action('plus')">&plus;</button>
             </section>
             <section class="row">
-                <button class="triple">0</button>
-                <button class="symbol">&equals;</button>
+                <button class="triple" onclick="action(0)">0</button>
+                <button class="symbol" onclick="action('equals')">&equals;</button>
             </section>
         </div>
     </div>
